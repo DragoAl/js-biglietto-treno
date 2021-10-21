@@ -47,12 +47,12 @@ console.log("prezzo over65", overPriceKm);
 
 // CALCOLO COSTO DEL BIGLIETTO E LO STAMPO A VIDEO
 if (userAge < 18){
-    priceTrainTicket.innerHTML = ` Hai Uno sconto del 20% e il costo del tuo biglietto è €${underPriceFixed}`;
+    priceTrainTicket.innerHTML = ` Hai Uno sconto del 20% e il costo del tuo biglietto è € ${underPriceFixed}`;
 } else if (userAge >= 65){
-    priceTrainTicket.innerHTML = ` Hai Uno sconto del 40% e il costo del tuo biglietto è €${overPriceFixed}`;
+    priceTrainTicket.innerHTML = ` Hai Uno sconto del 40% e il costo del tuo biglietto è € ${overPriceFixed}`;
 
 } else {
-    priceTrainTicket.innerHTML = ` Il costo del tuo biglietto è €${normalPriceFixed}`;
+    priceTrainTicket.innerHTML = ` Il costo del tuo biglietto è € ${normalPriceFixed}`;
  
 }
 

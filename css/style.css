@@ -1,0 +1,38 @@
+body{
+    font-family: ;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#ticket{
+    background-color: lightblue;
+    width: 50%;
+    height: 200px;
+    margin: 50px auto;
+    border-radius: 20px;
+}
+#logo {
+    margin: 10px 0 0 10px;
+}
+
+#logotext{
+    font-weight: bold;
+    font-style: italic;
+    padding-top: 20px;
+    font-size: 18px;
+}
+#train-ticket{
+    width: 50%;
+    font-style: italic;
+
+    text-align: center;
+    font-size: 30px;
+}
+.ms-span-style {
+    font-size: 16px;
+    font-style: italic;
+    padding: 10px;
+    font-weight: bold;
+}
